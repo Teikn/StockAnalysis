@@ -1,0 +1,30 @@
+# Streamlit Configuration for StockAnalysis
+# Reference: https://docs.streamlit.io/library/advanced-features/configuration
+
+[theme]
+primaryColor = "#1f77b4"
+backgroundColor = "#f8f9fa"
+secondaryBackgroundColor = "#e8eef5"
+textColor = "#31333f"
+font = "sans serif"
+
+[client]
+# Allow reruns on file changes
+showErrorDetails = true
+
+[logger]
+level = "info"
+
+[browser]
+# Open browser automatically
+gatherUsageStats = false
+
+[server]
+# Performance tuning
+maxUploadSize = 200  # MB
+enableXsrfProtection = true
+
+# UI tweaks
+[ui]
+hideTopBar = false
+hideFooter = false
